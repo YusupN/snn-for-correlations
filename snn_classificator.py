@@ -18,6 +18,10 @@ from math import pi
 #
 #parameters
 #
+
+#change this string to destination of your dataset
+path = '/mnt/c/Users/user name/free-spoken-digit-dataset-master/recordings/'
+
 n = 24
 input_rate = 15
 one_vector_longtitude = 2000
@@ -27,7 +31,6 @@ n_fields = 7
 n_splits = 5
 GRF_use = False
 max_stdp_iterations = 20
-path = '/mnt/c/Users/user name/free-spoken-digit-dataset-master/recordings/'
 syn_spec = {
 	'tau_plus': 89.3780097134877,
 	'weight': {
